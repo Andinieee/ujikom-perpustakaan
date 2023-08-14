@@ -24,6 +24,7 @@
 
     @livewireStyles
 </head>
+
 <body>
     <div id="app">
         <livewire:peminjam.kategori></livewire:peminjam.kategori>
@@ -34,5 +35,15 @@
     </div>
     
     @livewireScripts
+</body>
+<body>
+<div class="footer">
+<div class="row justify-content-center">
+      <strong>Copyright &copy; Ujikom 2023</strong>
+    </div>
+                  
+                </div>
+            </div>
+        </div>
 </body>
 </html>

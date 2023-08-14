@@ -46,7 +46,7 @@
                         <td>{{$loop->iteration}}</td>
                         <td>{{$item->rak}}</td>
                         <td>{{$item->baris}}</td>
-                        <td>{{$item->kategori->nama}}</td>
+                        <td>{{$item->nama}}</td>
                         <td>
                             <div class="btn-group">
                                 <span wire:click="edit({{$item->id}})" class="btn btn-sm btn-primary mr-2">Edit</span>

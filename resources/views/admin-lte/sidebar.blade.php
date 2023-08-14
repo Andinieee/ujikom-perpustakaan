@@ -60,9 +60,15 @@
                   <p>Buku</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/rak" class="nav-link  @yield('active-rak')">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Rak</p>
+                </a>
+              </li>
+
             </ul>
           </li>
-
           <li class="nav-item">
             <a href="/transaksi" class="nav-link @yield('active-transaksi')">
               <i class="fas fa-hands"></i>
